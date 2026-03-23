@@ -101,14 +101,14 @@ if (!isNaN(num) && num > 0) {
 
 
 // Q9. Count numbers between 1–100 divisible by both 3 and 5
-let count = 0;
+let count1 = 0;
 
 for (let i = 15; i <= 100; i += 15) {
   console.log(i);
-  count++;
+  count1++;
 }
 
-console.log("Total count:", count);
+console.log("Total count:", count1);
 
 
 // Q10. Stop at first multiple of 7
@@ -119,4 +119,24 @@ for (let i = 1; i <= 100; i++) {
     console.log("Stopped at:", i);
     break;
   }
+}
+
+
+// Q11. Skip multiples of 3 (1 to 20)
+for (let i = 1; i <= 20; i++) {
+  if (i % 3 === 0) continue;
+  console.log(i);
+}
+
+
+// Q12. Print first 5 odd numbers only
+let count2 = 0;
+
+for (let i = 1; i <= 100; i++) {
+  if (i % 2 === 0) continue; // skip even numbers
+
+  console.log(i);
+  count2++;
+
+  if (count2 === 5) break;
 }
