@@ -250,3 +250,42 @@ function bmi(weight, height) {
 }
 
 console.log("BMI:", bmi(65, 1.7).toFixed(2));
+
+// =====================================
+// HIGHER ORDER FUNCTIONS & CLOSURES
+// =====================================
+
+
+// ------------------------------
+// 1. DISCOUNT CALCULATOR (HOF)
+
+const createDiscountCalculator = (discountPercent) => {
+  return (price) => {
+    return price - (price * discountPercent) / 100;
+  };
+};
+
+// Usage
+const tenPercentDiscount = createDiscountCalculator(10);
+console.log(tenPercentDiscount(100)); // 90
+
+
+// ------------------------------
+// 2. COUNTER USING CLOSURE
+
+const createCounter = () => {
+  let count = 0;
+
+  return () => {
+    count += 1;
+    return count;
+  };
+};
+
+// Usage
+const counter = createCounter();
+
+// Calling multiple times
+for (let i = 0; i < 10; i++) {
+  console.log(counter());
+}
