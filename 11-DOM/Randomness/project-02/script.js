@@ -1,3 +1,5 @@
+// Random Name Generator 
+
 var arr = ["Shobhit", "Anshika", "Abhay", "Abhishek", "Amber", "Anmol", "Suyash", "Priya", "Ujjwal"];
 var h1 = document.querySelector('h1')
 var name = document.querySelector('#name');
