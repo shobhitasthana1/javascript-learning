@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+button,
+input {
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+
+form {
+    margin: 20px 0;
+}
+
+.parent {
+    width: 300px;
+    padding: 20px;
+    margin: 20px 0;
+    border: 2px solid #333;
+}
+
+.child {
+    margin-top: 15px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: 1px solid #999;
+    cursor: pointer;
+}
+
+ul {
+    margin: 20px 0;
+}
+
+li {
+    margin: 8px 0;
+    cursor: pointer;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}

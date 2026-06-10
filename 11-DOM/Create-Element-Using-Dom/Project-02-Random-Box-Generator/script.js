@@ -12,9 +12,11 @@ btn.addEventListener('click', function () {
     var topPos = Math.random() * 80;
     var leftPos = Math.random() * 80;
 
-      var c1 = Math.random() * 256
+    var c1 = Math.random() * 256
     var c2 = Math.random() * 256
     var c3 = Math.random() * 256
+
+    var rot = Math.random() * 1000
 
     box.style.width = '100px';
     box.style.height = '100px';
@@ -24,6 +26,7 @@ btn.addEventListener('click', function () {
     box.style.top = `${topPos}%`;
     box.style.left = `${leftPos}%`;
     box.style.zIndex = '2';
+    box.style.rotate = `${rot}deg`
 
     document.querySelector('main').append(box)
     console.log(box)
