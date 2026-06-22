@@ -15,6 +15,7 @@ btn.addEventListener("click", function () {
 
         if (grow > 100) {
             clearInterval(interval);
+            btn.innerHTML = "Downloded"
         }
 
     }, 100);
