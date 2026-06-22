@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: rgb(19, 19, 20);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    width: 400px;
+    height: 300px;
+    background-color: wheat;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.top {
+    width: 100%;
+    height: 10%;
+    background-color: rgb(190, 185, 171);
+    border-radius: 20px;
+    padding: 3px 2px;
+    border: 2px solid rgb(46, 39, 39);
+    margin-bottom: 20px;
+}
+
+.inner {
+    width: 0%;
+    height: 100%;
+    background-color: rgb(27, 221, 50);
+    border-radius: 20px;
+    /* border: 1px solid rgb(179, 96, 96); */
+}
+
+.bottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.bottom button{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: gold;
+}
+
