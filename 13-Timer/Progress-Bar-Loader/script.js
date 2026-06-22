@@ -16,6 +16,8 @@ btn.addEventListener("click", function () {
         if (grow > 100) {
             clearInterval(interval);
             btn.innerHTML = "Downloded"
+            btn.style.pointerEvents = "none"
+            btn.style.backgroundColor = "red"
         }
 
     }, 100);
