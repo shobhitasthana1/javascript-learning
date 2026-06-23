@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(20, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #card {
+    width: 250px;
+    /* height: 350px; */
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+
+#card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#card h1 {
+    margin-bottom: 30px;
+    font-size: 27px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(20, 19, 19);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main #card {
+    width: 250px;
+    /* height: 350px; */
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    border-radius: 15px;
+    position: relative;
+}
+
+#card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+#card h1 {
+    margin-bottom: 30px;
+    font-size: 27px;
+}
+
+#card i {
+    position: absolute;
+    font-size: 55px;
+
+    background: linear-gradient(135deg, #ff0844, #ff14b1, #9026e6);
+
+    background-clip: text;
+    -webkit-background-clip: text;
+
+    color: transparent;
+    -webkit-text-fill-color: transparent;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0) rotate(-60deg);
+    opacity: 0;
+    transition: transform 0.4s cubic-bezier(0.3, 0.8, 0.3, 2.3),
+            opacity 0.4s;
+}
+
+#card i.show {
+    transform: translate(-50%, -50%) rotate(0deg) scale(1);
+    opacity: 1;
+}
