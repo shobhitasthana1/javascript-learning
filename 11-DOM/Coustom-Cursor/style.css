@@ -8,6 +8,7 @@
 html, body{
     width: 100%;
     height: 100%;
+    cursor: none;
 }
 
 main{
@@ -29,4 +30,5 @@ main #crsr{
     height: 30px;
     background-color: red;
     border-radius: 50%;
+    transform: translate(-50%, -50%);
 }
