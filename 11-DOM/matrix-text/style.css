@@ -16,14 +16,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(34, 16, 16);
+    background: conic-gradient(rgb(15, 15, 15), rgb(38, 37, 37));
 }
 
 body p{
     font-size: 50px;
-    color: rgb(152, 139, 201);
+    color: rgb(255, 0, 238);
     font-weight: 800;
-    text-shadow: 2px 2px 1px rgb(173, 12, 243);
-    box-shadow: inset 1px 1px 10px red;
+    text-shadow: 2px 2px 1px rgb(54, 2, 76);
+    box-shadow: inset 1px 1px 10px rgb(0, 0, 0);
     padding: 50px;
 }

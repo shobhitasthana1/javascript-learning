@@ -7,6 +7,7 @@ This is my personal JavaScript learning and practice repository. I created it wh
 - JavaScript basics: variables, declarations, data types, type system, and operators
 - Control flow, loops, functions, arrays, and objects
 - DOM selection, DOM manipulation, element creation, and dynamic UI updates
+- Visual styling practice with gradients, shadows, spacing, and layout
 - Browser events such as click, keydown, mouseenter, mouseleave, mousemove, and wheel
 - Timer APIs including `setTimeout` and `setInterval`
 - Mini projects for hands-on JavaScript practice
@@ -36,7 +37,7 @@ This is my personal JavaScript learning and practice repository. I created it wh
 - Dynamic user cards
 - Instagram-style love button
 - Add friend feature
-- Matrix text effect
+- Matrix text effect with gradient background and glowing text style
 - Random box generator
 - Progress bar loader
 - `setTimeout` and `setInterval` demos
