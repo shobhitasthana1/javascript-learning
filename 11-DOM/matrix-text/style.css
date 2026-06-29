@@ -16,8 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background: conic-gradient(rgb(15, 15, 15), rgb(38, 37, 37));
-    animation: changeBackgroudColor 10s;
+    animation: changeBackgroudColor 5s ease forwards;
 }
 
 body p{
