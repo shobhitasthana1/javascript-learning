@@ -24,4 +24,6 @@ body p{
     color: rgb(152, 139, 201);
     font-weight: 800;
     text-shadow: 2px 2px 1px rgb(173, 12, 243);
+    box-shadow: inset 1px 1px 10px red;
+    padding: 50px;
 }
