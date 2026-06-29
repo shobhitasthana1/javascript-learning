@@ -17,6 +17,7 @@ body{
     justify-content: center;
     align-items: center;
     background: conic-gradient(rgb(15, 15, 15), rgb(38, 37, 37));
+    animation: changeBackgroudColor 10s;
 }
 
 body p{
@@ -26,4 +27,14 @@ body p{
     text-shadow: 2px 2px 1px rgb(54, 2, 76);
     box-shadow: inset 1px 1px 10px rgb(0, 0, 0);
     padding: 50px;
+}
+
+@keyframes changeBackgroudColor {
+    from {
+        background: conic-gradient(rgb(15, 15, 15), rgb(38, 37, 37));
+    }
+
+    to {
+        background: conic-gradient(rgb(54, 51, 51), rgb(0, 0, 0));
+    }
 }
