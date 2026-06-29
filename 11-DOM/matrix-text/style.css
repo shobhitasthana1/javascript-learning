@@ -16,7 +16,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: changeBackgroudColor 5s ease forwards;
+    animation: changeBackgroudColor 5s ease infinite forwards;
 }
 
 body p{
