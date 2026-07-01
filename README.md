@@ -6,6 +6,7 @@ This is my personal JavaScript learning and practice repository. I created it wh
 
 - JavaScript basics: variables, declarations, data types, type system, and operators
 - Control flow, loops, functions, arrays, and objects
+- Object-oriented programming basics: classes, constructors, methods, and `this`
 - DOM selection, DOM manipulation, element creation, and dynamic UI updates
 - Visual styling practice with gradients, shadows, spacing, and layout
 - Browser events such as click, keydown, mouseenter, mouseleave, mousemove, and wheel
@@ -28,6 +29,7 @@ This is my personal JavaScript learning and practice repository. I created it wh
 11-DOM/             DOM lessons and mini projects
 12-Events/          Browser event examples
 13-Timer/           Timer-based examples and projects
+14-Oops/            Object-oriented programming examples
 ```
 
 ## Mini Projects Included
@@ -41,6 +43,13 @@ This is my personal JavaScript learning and practice repository. I created it wh
 - Random box generator
 - Progress bar loader
 - `setTimeout` and `setInterval` demos
+
+## OOP Examples Included
+
+- Object literal example
+- Biscuit maker class example
+- Book print class example
+- Bottle class example
 
 ## How To Run
 
@@ -61,16 +70,17 @@ node script.js
 1. Start with `01-variables` through `05-operators`.
 2. Continue with `06-control-flow`, `07-loop`, and `08-Function`.
 3. Practice data structures in `09-Array` and `10 - Object`.
-4. Move into browser-based JavaScript with `11-DOM`.
-5. Explore user interaction in `12-Events`.
-6. Finish with timer projects in `13-Timer`.
+4. Learn object-oriented programming basics in `14-Oops`.
+5. Move into browser-based JavaScript with `11-DOM`.
+6. Explore user interaction in `12-Events`.
+7. Finish with timer projects in `13-Timer`.
 
 ## Purpose
 
 - To keep my JavaScript practice code in one place
 - To revise concepts whenever needed
 - To track my learning from basics to browser-based JavaScript
-- To build small projects while practicing DOM, events, and timers
+- To build small projects while practicing DOM, events, timers, and OOP
 
 ## Notes
 
