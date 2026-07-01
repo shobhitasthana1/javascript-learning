@@ -10,3 +10,14 @@ function f() {
 
 f();
 
+// Es5 function inside object -> object
+
+let obj = {
+    name: "Shobhit",
+    fnc: function () {
+        console.log(this); // obj
+    }
+};
+obj.fnc();
+
+//
