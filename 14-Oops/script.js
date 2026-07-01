@@ -9,9 +9,9 @@ class Biscuitmaker {
     }
 }
 
-let parleji = new Biscuitmaker("ParleG", "5rs");
-console.log(parleji);
-parleji.showDetails();
+let parleg = new Biscuitmaker("ParleG", "5rs");
+console.log(parleg);
+parleg.showDetails();
 
 let oreo = new Biscuitmaker("Oreo", "10rs");
 console.log(oreo)
