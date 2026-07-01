@@ -20,4 +20,3 @@ let obj = {
 };
 obj.fnc();
 
-//
