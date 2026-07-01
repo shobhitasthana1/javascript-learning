@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prototype</title>
+</head>
+
+<body>
+
+    <script>
+        class Sketch {
+            constructor() {
+                this.Sketch = "This is a sketch";
+                this.color = "This is a color";
+                this.price = "This is a price";
+                this.material = "This is a material";
+            }
+        }
+        Sketch.prototype.draw = function () {
+            console.log("This is a draw method");
+        }
+
+        Sketch.prototype.erase = function () {
+            console.log("This is a erase method");
+        }
+
+        sketch1 = new Sketch();
+        console.log(sketch1);
+        Sketch.prototype.draw();
+        Sketch.prototype.erase();
+    </script>
+</body>
+
+</html>
