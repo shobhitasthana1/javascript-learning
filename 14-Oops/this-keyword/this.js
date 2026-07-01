@@ -29,3 +29,18 @@ let obj2 = {
     }
 };
 obj2.fnc();
+
+// Es5 function inside Es5 function inside object -> window
+
+let obj3 = {
+    name: "Shobhit",
+    fnc: function () {
+        function f() {
+            console.log(this); // window
+        }
+        f();
+    }
+};
+obj3.fnc();
+
+
