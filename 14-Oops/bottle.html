@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bottle</title>
+</head>
+<body>
+    <script>
+        class Bottle{
+            constructor(){
+                this.Bottle = "This is a bottle";
+                this.color = "This is a color";
+                this.price = "This is a price";
+                this.material = "This is a material";
+            }
+            fill(){
+                console.log("This is a fill method");
+            }
+            empty(){
+                console.log("This is a empty method");
+            }
+        }
+
+        let bottle1 = new Bottle();
+        console.log(bottle1);
+        bottle1.fill();
+        bottle1.empty();
+
+    </script>
+</body>
+</html>
