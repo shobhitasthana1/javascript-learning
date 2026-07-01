@@ -20,3 +20,12 @@ let obj = {
 };
 obj.fnc();
 
+// Arrow function inside object -> window
+
+let obj2 = {
+    name: "Shobhit",
+    fnc: () => {
+        console.log(this); // window
+    }
+};
+obj2.fnc();
