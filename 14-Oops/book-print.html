@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book Print</title>
 </head>
+
 <body>
-    
+
     <script>
-      class BookPrint{
-        constructor{
-            
+        class BookPrint {
+            constructor(name, price, author) {
+                this.name = name;
+                this.price = price;
+                this.author = author;
+            }
+
+            ReadBook() {
+                console.log("Book Padhooooooo")
+            }
+            CloseBook() {
+                console.log("Book Padhnaaaa band karoooo")
+            }
         }
-      }
+
+        let KitabPrintKaro = new BookPrint("JAVA", "999rs", "Shobhit Asthana");
+        console.log(KitabPrintKaro);
+        KitabPrintKaro.ReadBook();
+        KitabPrintKaro.CloseBook();
+
+
     </script>
 </body>
+
 </html>
