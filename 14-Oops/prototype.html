@@ -30,6 +30,27 @@
         console.log(sketch1);
         Sketch.prototype.draw();
         Sketch.prototype.erase();
+        
+
+// Another example of prototype is given below
+
+        class bottle{
+            constructor(){
+                this.bottle = "This is a bottle";
+                this.color = "This is a color";
+                this.price = "This is a price";
+                this.material = "This is a material";
+            }
+            fill(){
+                console.log("This is a fill method");
+            }
+            empty(){
+                console.log("This is a empty method");
+            }
+        }
+
+        let bottle1 = new bottle();
+        console.log(bottle1);
     </script>
 </body>
 
