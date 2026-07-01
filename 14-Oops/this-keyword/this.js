@@ -43,4 +43,16 @@ let obj3 = {
 };
 obj3.fnc();
 
+// Arrow function inside Es5 function inside object -> obj
 
+
+let obj4 = {
+    name: "Shobhit",
+    fnc: function () {
+        let f = () => {
+            console.log(this); // obj4
+        };
+        f();
+    }
+};
+obj4.fnc();
