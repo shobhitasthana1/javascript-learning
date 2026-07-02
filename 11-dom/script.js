@@ -6,7 +6,7 @@ console.dir(h1);
 
 // set attribute 
 let img = document.querySelector("img");
-img.setAttribute("src", "shobhit.png");
+img.setAttribute("src", "profile.png");
 
 
 let a = document.querySelector("a");

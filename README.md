@@ -1,65 +1,74 @@
-# JavaScript Practice
+# JavaScript Learning
 
-This is my personal JavaScript learning and practice repository. I created it while studying JavaScript, and it contains the code I wrote for different JavaScript concepts, examples, exercises, DOM practice, events, timers, and small mini projects.
+A personal JavaScript practice repository covering core language concepts, browser APIs, DOM practice, events, timers, object-oriented programming, and small mini projects.
 
-## What I Practiced
+## Topics Covered
 
-- JavaScript basics: variables, declarations, data types, type system, and operators
+- Variables, declarations, data types, type behavior, and operators
 - Control flow, loops, functions, arrays, and objects
-- Object-oriented programming basics: classes, constructors, methods, and `this`
-- DOM selection, DOM manipulation, element creation, and dynamic UI updates
-- Visual styling practice with gradients, shadows, spacing, and layout
+- Assignment questions for operator practice
+- DOM selection, DOM updates, element creation, and dynamic UI examples
 - Browser events such as click, keydown, mouseenter, mouseleave, mousemove, and wheel
 - Timer APIs including `setTimeout` and `setInterval`
-- Mini projects for hands-on JavaScript practice
+- Object-oriented programming basics: object literals, classes, prototypes, and `this`
 
 ## Folder Structure
 
 ```text
-01-variables/       JavaScript variables
-02-declaration/     Variable declarations
-03-data-types/      Data types
-04-type-system/     JavaScript type behavior
-05-operators/       Operators and assignment questions
-06-control-flow/    Conditional logic
-07-loop/            Loops
-08-Function/        Functions
-09-Array/           Arrays
-10 - Object/        Objects
-11-DOM/             DOM lessons and mini projects
-12-Events/          Browser event examples
-13-Timer/           Timer-based examples and projects
-14-Oops/            Object-oriented programming examples
+01-variables/        JavaScript variables
+02-declarations/     Variable declarations
+03-data-types/       Primitive and reference data types
+04-type-system/      JavaScript type behavior
+05-operators/        Operators and assignment questions
+06-control-flow/     Conditional logic
+07-loops/            Loop examples
+08-functions/        Function examples
+09-arrays/           Array examples
+10-objects/          Object examples
+11-dom/              DOM lessons and mini projects
+12-events/           Browser event examples
+13-timers/           Timer-based examples and projects
+14-oop/              Object-oriented programming examples
 ```
 
-## Mini Projects Included
+## Mini Projects
 
-- Counter
-- Custom cursor
-- Dynamic user cards
-- Instagram-style love button
-- Add friend feature
-- Matrix text effect with gradient background and glowing text style
-- Random box generator
-- Progress bar loader
-- `setTimeout` and `setInterval` demos
+- `11-dom/counter`
+- `11-dom/custom-cursor`
+- `11-dom/dynamic-user-cards`
+- `11-dom/instagram-add-friend`
+- `11-dom/instagram-love-button`
+- `11-dom/matrix-text`
+- `11-dom/create-element/random-box-generator`
+- `13-timers/progress-bar-loader`
+- `13-timers/set-timeout`
+- `13-timers/set-interval`
 
-## OOP Examples Included
+## OOP Examples
 
-- Object literal example
-- Biscuit maker class example
-- Book print class example
-- Bottle class example
+- `14-oop/01-object-basics/object-literal`
+- `14-oop/02-classes-and-objects/biscuit-maker`
+- `14-oop/02-classes-and-objects/book-print`
+- `14-oop/02-classes-and-objects/bottle`
+- `14-oop/03-prototypes/prototype-methods`
+- `14-oop/04-this-keyword/this-contexts`
+
+## Naming Convention
+
+- Folders use lowercase kebab-case.
+- Lesson folders keep numeric prefixes for learning order.
+- Browser projects use `index.html`, `style.css`, and `script.js` where possible.
+- Shared image assets use descriptive names such as `profile.png` and `profile.jpg`.
 
 ## How To Run
 
 Most examples are simple HTML, CSS, and JavaScript files.
 
-1. Clone or download this repository.
-2. Open any project folder.
-3. Open the `index.html` file in your browser.
+1. Open the folder for the lesson or project.
+2. Open `index.html` in a browser.
+3. Use browser developer tools to inspect console output.
 
-For folders that only contain a `script.js` file, you can run the code in the browser console or with Node.js:
+For folders that only contain a `script.js` file, run the file with Node.js:
 
 ```bash
 node script.js
@@ -68,25 +77,12 @@ node script.js
 ## Recommended Learning Order
 
 1. Start with `01-variables` through `05-operators`.
-2. Continue with `06-control-flow`, `07-loop`, and `08-Function`.
-3. Practice data structures in `09-Array` and `10 - Object`.
-4. Learn object-oriented programming basics in `14-Oops`.
-5. Move into browser-based JavaScript with `11-DOM`.
-6. Explore user interaction in `12-Events`.
-7. Finish with timer projects in `13-Timer`.
-
-## Purpose
-
-- To keep my JavaScript practice code in one place
-- To revise concepts whenever needed
-- To track my learning from basics to browser-based JavaScript
-- To build small projects while practicing DOM, events, timers, and OOP
-
-## Notes
-
-- This repo is mainly for my own learning, revision, and experimentation.
-- No package installation is required for the current examples.
-- Open browser developer tools to inspect console output and debug JavaScript.
+2. Continue with `06-control-flow`, `07-loops`, and `08-functions`.
+3. Practice data structures in `09-arrays` and `10-objects`.
+4. Learn OOP basics in `14-oop`.
+5. Move into browser-based JavaScript with `11-dom`.
+6. Explore user interaction in `12-events`.
+7. Finish with timer examples in `13-timers`.
 
 ## Author
 
