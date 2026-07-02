@@ -10,7 +10,7 @@ A personal JavaScript practice repository covering core language concepts, brows
 - DOM selection, DOM updates, element creation, and dynamic UI examples
 - Browser events such as click, keydown, mouseenter, mouseleave, mousemove, and wheel
 - Timer APIs including `setTimeout` and `setInterval`
-- Object-oriented programming basics: object literals, classes, prototypes, `this`, call/apply/bind, and inheritance
+- Object-oriented programming basics: object literals, classes, prototypes, `this`, call/apply/bind, inheritance, getters, and setters
 
 ## Folder Structure
 
@@ -57,6 +57,7 @@ A personal JavaScript practice repository covering core language concepts, brows
 - `14-oop/05-call-apply-bind/apply-method`
 - `14-oop/05-call-apply-bind/bind-method`
 - `14-oop/06-inheritance/basic-inheritance`
+- `14-oop/07-getters-and-setters`
 
 ## Naming Convention
 

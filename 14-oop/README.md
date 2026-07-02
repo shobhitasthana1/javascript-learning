@@ -22,6 +22,7 @@ This folder contains object-oriented programming practice examples in JavaScript
   bind-method/
 06-inheritance/
   basic-inheritance/
+07-getters-and-setters/
 ```
 
 ## Lesson Order
@@ -37,6 +38,7 @@ This folder contains object-oriented programming practice examples in JavaScript
 9. `05-call-apply-bind/apply-method` - `apply()` method example
 10. `05-call-apply-bind/bind-method` - `bind()` method example
 11. `06-inheritance/basic-inheritance` - Basic inheritance example
+12. `07-getters-and-setters` - Getter and setter example
 
 ## How To Run
 
