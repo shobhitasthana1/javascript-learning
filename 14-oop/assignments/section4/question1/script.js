@@ -3,8 +3,6 @@
 // 	11.	Add a login method in two ways:
 // First, inside the constructor
 // Then, move the method to the prototype
-// 	12.	Create two User objects and compare their login methods using equality.
-// Explain why the result is true or false.
 
 function User(){
     this.name = "Shobhit";
