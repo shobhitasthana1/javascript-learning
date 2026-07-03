@@ -16,12 +16,12 @@
 // - Samajhna ki callback delay ke baad kaise execute hota hai
 // - Ye `setTimeout` + callback connection hai
 
-function afterDelay(melliseconds, cb){
-setTimeout(() => {
-    cb("Callback executed");
-}, 2000);
+function afterDelay(milliseconds, cb) {
+    setTimeout(() => {
+        cb("Callback executed");
+    }, milliseconds);
 }
 
-afterDelay("2sec", function(dets){
-console.log(dets)
+afterDelay(2000, function (dets) {
+    console.log(dets);
 });
