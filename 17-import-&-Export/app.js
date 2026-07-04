@@ -1,3 +1,6 @@
 const user = "Shobhit";
 
-export default user;
+export const username = "Shobhit ASthana Ji"; // Named Export
+
+export default user; // Default Export
+
