@@ -1,95 +1,151 @@
 # JavaScript Learning
 
-A personal JavaScript practice repository covering core language concepts, browser APIs, DOM practice, events, timers, object-oriented programming, and small mini projects.
+A personal JavaScript learning repository documenting my journey of learning JavaScript from scratch. This repository contains concepts, practice exercises, coding challenges, and mini projects that I built while learning and exploring JavaScript.
 
 ## Topics Covered
 
-- Variables, declarations, data types, type behavior, and operators
-- Control flow, loops, functions, arrays, and objects
-- Assignment questions for operator practice
-- DOM selection, DOM updates, element creation, and dynamic UI examples
-- Browser events such as click, keydown, mouseenter, mouseleave, mousemove, and wheel
-- Timer APIs including `setTimeout` and `setInterval`
-- Object-oriented programming basics: object literals, classes, prototypes, `this`, call/apply/bind, inheritance, getters, and setters
+- Variables
+- Variable Declarations (`var`, `let`, `const`)
+- Data Types
+- Type System
+- Operators
+- Control Flow
+- Loops
+- Functions
+- Arrays
+- Objects
+- DOM Manipulation
+- Events
+- Timers
+- Object-Oriented Programming (OOP)
+- Asynchronous JavaScript
+- Error Handling
+- ES Modules (Import & Export)
 
 ## Folder Structure
 
 ```text
-01-variables/        JavaScript variables
-02-declarations/     Variable declarations
-03-data-types/       Primitive and reference data types
-04-type-system/      JavaScript type behavior
-05-operators/        Operators and assignment questions
-06-control-flow/     Conditional logic
-07-loops/            Loop examples
-08-functions/        Function examples
-09-arrays/           Array examples
-10-objects/          Object examples
-11-dom/              DOM lessons and mini projects
-12-events/           Browser event examples
-13-timers/           Timer-based examples and projects
-14-oop/              Object-oriented programming examples
+01-variables/
+02-declarations/
+03-data-types/
+04-type-system/
+05-operators/
+06-control-flow/
+07-loops/
+08-functions/
+09-arrays/
+10-objects/
+11-dom/
+12-events/
+13-timers/
+14-oop/
+15-Asynchronous-JavaScript/
+16-Error Handling/
+17-import-&-Export/
 ```
 
 ## Mini Projects
 
-- `11-dom/counter`
-- `11-dom/custom-cursor`
-- `11-dom/dynamic-user-cards`
-- `11-dom/instagram-add-friend`
-- `11-dom/instagram-love-button`
-- `11-dom/matrix-text`
-- `11-dom/create-element/random-box-generator`
-- `13-timers/progress-bar-loader`
-- `13-timers/set-timeout`
-- `13-timers/set-interval`
+- Counter
+- Custom Cursor
+- Dynamic User Cards
+- Instagram Add Friend
+- Instagram Like Button
+- Matrix Text Animation
+- Random Box Generator
+- Progress Bar Loader
+- Countdown & Timer Examples
 
-## OOP Examples
+## What You'll Learn
 
-- `14-oop/01-object-basics/object-literal`
-- `14-oop/02-classes-and-objects/biscuit-maker`
-- `14-oop/02-classes-and-objects/book-print`
-- `14-oop/02-classes-and-objects/bottle`
-- `14-oop/02-classes-and-objects/class-expression`
-- `14-oop/03-prototypes/prototype-methods`
-- `14-oop/04-this-keyword/this-contexts`
-- `14-oop/05-call-apply-bind/call-method`
-- `14-oop/05-call-apply-bind/apply-method`
-- `14-oop/05-call-apply-bind/bind-method`
-- `14-oop/06-inheritance/basic-inheritance`
-- `14-oop/07-getters-and-setters`
+- JavaScript Fundamentals
+- Problem Solving
+- DOM Manipulation
+- Event Handling
+- Browser APIs
+- Object-Oriented Programming
+- Callbacks
+- Promises
+- Async / Await
+- Fetch API
+- Error Handling
+- ES Modules
 
-## Naming Convention
+## Getting Started
 
-- Folders use lowercase kebab-case.
-- Lesson folders keep numeric prefixes for learning order.
-- Browser projects use `index.html`, `style.css`, and `script.js` where possible.
-- Shared image assets use descriptive names such as `profile.png` and `profile.jpg`.
+Clone the repository:
 
-## How To Run
+```bash
+git clone https://github.com/shobhitasthana1/javascript-learning.git
+```
 
-Most examples are simple HTML, CSS, and JavaScript files.
+Move into the project directory:
 
-1. Open the folder for the lesson or project.
-2. Open `index.html` in a browser.
-3. Use browser developer tools to inspect console output.
+```bash
+cd javascript-learning
+```
 
-For folders that only contain a `script.js` file, run the file with Node.js:
+Open any lesson folder and run:
+
+- `index.html` in your browser, or
+- `script.js` using Node.js (where applicable).
 
 ```bash
 node script.js
 ```
 
-## Recommended Learning Order
+## Learning Path
 
-1. Start with `01-variables` through `05-operators`.
-2. Continue with `06-control-flow`, `07-loops`, and `08-functions`.
-3. Practice data structures in `09-arrays` and `10-objects`.
-4. Learn OOP basics in `14-oop`.
-5. Move into browser-based JavaScript with `11-dom`.
-6. Explore user interaction in `12-events`.
-7. Finish with timer examples in `13-timers`.
+```text
+Variables
+   ↓
+Declarations
+   ↓
+Data Types
+   ↓
+Type System
+   ↓
+Operators
+   ↓
+Control Flow
+   ↓
+Loops
+   ↓
+Functions
+   ↓
+Arrays
+   ↓
+Objects
+   ↓
+DOM
+   ↓
+Events
+   ↓
+Timers
+   ↓
+Object-Oriented Programming
+   ↓
+Asynchronous JavaScript
+   ↓
+Error Handling
+   ↓
+Import & Export
+```
+
+## Repository Goals
+
+- Build a strong JavaScript foundation.
+- Practice every concept with code.
+- Learn by building small projects.
+- Keep concepts organized for future reference.
+- Continuously update the repository while learning.
+
+## Contributing
+
+This is a personal learning repository. Suggestions, improvements, and feedback are always welcome.
 
 ## Author
 
-Shobhit Asthana
+**Shobhit Asthana**
+
+GitHub: https://github.com/shobhitasthana1
